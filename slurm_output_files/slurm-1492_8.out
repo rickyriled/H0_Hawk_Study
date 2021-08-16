@@ -1,0 +1,51 @@
+
+
+
+Sun Aug 15 15:44:53 EDT 2021
+/home/ghosh/projects/H0_study
+
+
+
+8
+RA of injection: 1.67 . Dec of injection: 0.39
+2021-08-15 15:44:57,495 Generating Fake Strain
+2021-08-15 15:44:57,495 Reading ASD from file
+2021-08-15 15:44:57,581 Making colored noise
+2021-08-15 15:45:17,610 Resampling data
+2021-08-15 15:45:17,612 Applying injections
+2021-08-15 15:45:17,789 Injecting at 1264069376.0, method is lal
+2021-08-15 15:45:17,825 Converting to float64
+2021-08-15 15:45:17,826 Remove Padding
+2021-08-15 15:45:17,828 Writing output strain to L-L1_STRAIN-1264069359-25-RA_1.67-DEC_0.39.gwf
+2021-08-15 15:45:18,167 Done
+2021-08-15 15:45:19,669 Generating Fake Strain
+2021-08-15 15:45:19,669 Reading ASD from file
+2021-08-15 15:45:19,753 Making colored noise
+2021-08-15 15:45:40,123 Resampling data
+2021-08-15 15:45:40,125 Applying injections
+2021-08-15 15:45:40,314 Injecting at 1264069376.0, method is lal
+2021-08-15 15:45:40,352 Converting to float64
+2021-08-15 15:45:40,353 Remove Padding
+2021-08-15 15:45:40,354 Writing output strain to H-H1_STRAIN-1264069359-25-RA_1.67-DEC_0.39.gwf
+2021-08-15 15:45:40,710 Done
+2021-08-15 15:45:42,290 Generating Fake Strain
+2021-08-15 15:45:42,291 Reading ASD from file
+2021-08-15 15:45:42,379 Making colored noise
+2021-08-15 15:46:02,644 Resampling data
+2021-08-15 15:46:02,646 Applying injections
+2021-08-15 15:46:02,823 Injecting at 1264069376.0, method is lal
+2021-08-15 15:46:02,857 Converting to float64
+2021-08-15 15:46:02,858 Remove Padding
+2021-08-15 15:46:02,859 Writing output strain to V-V1_STRAIN-1264069359-25-RA_1.67-DEC_0.39.gwf
+2021-08-15 15:46:03,206 Done
+Overriding RA in the config file by value supplied in command line
+2.1 --> 1.67
+Overriding dec in the config file by value supplied in command line
+1.5 --> 0.39
+Duration of the signal = 7.74554443359375
+Frame start time = 1264069359
+Frame duration = 25
+Making frames for L1
+Making frames for H1
+Making frames for V1
+Injection File injectionFiles/injection_1.67_0.39.hdf5 written

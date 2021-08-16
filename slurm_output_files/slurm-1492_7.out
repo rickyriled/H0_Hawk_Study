@@ -1,0 +1,51 @@
+
+
+
+Sun Aug 15 15:44:53 EDT 2021
+/home/ghosh/projects/H0_study
+
+
+
+7
+RA of injection: 1.01 . Dec of injection: -1.50
+2021-08-15 15:44:57,728 Generating Fake Strain
+2021-08-15 15:44:57,728 Reading ASD from file
+2021-08-15 15:44:57,813 Making colored noise
+2021-08-15 15:45:17,403 Resampling data
+2021-08-15 15:45:17,404 Applying injections
+2021-08-15 15:45:17,586 Injecting at 1264069376.0, method is lal
+2021-08-15 15:45:17,620 Converting to float64
+2021-08-15 15:45:17,620 Remove Padding
+2021-08-15 15:45:17,622 Writing output strain to L-L1_STRAIN-1264069359-25-RA_1.01-DEC_-1.5.gwf
+2021-08-15 15:45:17,963 Done
+2021-08-15 15:45:19,491 Generating Fake Strain
+2021-08-15 15:45:19,491 Reading ASD from file
+2021-08-15 15:45:19,576 Making colored noise
+2021-08-15 15:45:39,507 Resampling data
+2021-08-15 15:45:39,508 Applying injections
+2021-08-15 15:45:39,685 Injecting at 1264069376.0, method is lal
+2021-08-15 15:45:39,719 Converting to float64
+2021-08-15 15:45:39,720 Remove Padding
+2021-08-15 15:45:39,721 Writing output strain to H-H1_STRAIN-1264069359-25-RA_1.01-DEC_-1.5.gwf
+2021-08-15 15:45:40,061 Done
+2021-08-15 15:45:41,802 Generating Fake Strain
+2021-08-15 15:45:41,803 Reading ASD from file
+2021-08-15 15:45:41,890 Making colored noise
+2021-08-15 15:46:02,142 Resampling data
+2021-08-15 15:46:02,144 Applying injections
+2021-08-15 15:46:02,321 Injecting at 1264069376.0, method is lal
+2021-08-15 15:46:02,355 Converting to float64
+2021-08-15 15:46:02,356 Remove Padding
+2021-08-15 15:46:02,357 Writing output strain to V-V1_STRAIN-1264069359-25-RA_1.01-DEC_-1.5.gwf
+2021-08-15 15:46:02,697 Done
+Overriding RA in the config file by value supplied in command line
+2.1 --> 1.01
+Overriding dec in the config file by value supplied in command line
+1.5 --> -1.5
+Duration of the signal = 7.74554443359375
+Frame start time = 1264069359
+Frame duration = 25
+Making frames for L1
+Making frames for H1
+Making frames for V1
+Injection File injectionFiles/injection_1.01_-1.50.hdf5 written

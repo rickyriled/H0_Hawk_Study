@@ -1,0 +1,51 @@
+
+
+
+Sun Aug 15 15:44:53 EDT 2021
+/home/ghosh/projects/H0_study
+
+
+
+10
+RA of injection: 5.20 . Dec of injection: -0.1
+2021-08-15 15:44:57,498 Generating Fake Strain
+2021-08-15 15:44:57,498 Reading ASD from file
+2021-08-15 15:44:57,584 Making colored noise
+2021-08-15 15:45:17,756 Resampling data
+2021-08-15 15:45:17,758 Applying injections
+2021-08-15 15:45:17,934 Injecting at 1264069376.0, method is lal
+2021-08-15 15:45:17,971 Converting to float64
+2021-08-15 15:45:17,972 Remove Padding
+2021-08-15 15:45:17,973 Writing output strain to L-L1_STRAIN-1264069359-25-RA_5.2-DEC_-0.1.gwf
+2021-08-15 15:45:18,316 Done
+2021-08-15 15:45:19,995 Generating Fake Strain
+2021-08-15 15:45:19,995 Reading ASD from file
+2021-08-15 15:45:20,082 Making colored noise
+2021-08-15 15:45:40,200 Resampling data
+2021-08-15 15:45:40,202 Applying injections
+2021-08-15 15:45:40,381 Injecting at 1264069376.0, method is lal
+2021-08-15 15:45:40,416 Converting to float64
+2021-08-15 15:45:40,417 Remove Padding
+2021-08-15 15:45:40,419 Writing output strain to H-H1_STRAIN-1264069359-25-RA_5.2-DEC_-0.1.gwf
+2021-08-15 15:45:40,760 Done
+2021-08-15 15:45:42,282 Generating Fake Strain
+2021-08-15 15:45:42,282 Reading ASD from file
+2021-08-15 15:45:42,370 Making colored noise
+2021-08-15 15:46:02,768 Resampling data
+2021-08-15 15:46:02,769 Applying injections
+2021-08-15 15:46:02,946 Injecting at 1264069376.0, method is lal
+2021-08-15 15:46:02,980 Converting to float64
+2021-08-15 15:46:02,981 Remove Padding
+2021-08-15 15:46:02,982 Writing output strain to V-V1_STRAIN-1264069359-25-RA_5.2-DEC_-0.1.gwf
+2021-08-15 15:46:03,325 Done
+Overriding RA in the config file by value supplied in command line
+2.1 --> 5.2
+Overriding dec in the config file by value supplied in command line
+1.5 --> -0.1
+Duration of the signal = 7.74554443359375
+Frame start time = 1264069359
+Frame duration = 25
+Making frames for L1
+Making frames for H1
+Making frames for V1
+Injection File injectionFiles/injection_5.20_-0.1.hdf5 written

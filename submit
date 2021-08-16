@@ -1,0 +1,21 @@
+#! /bin/bash
+#SBATCH --time=01:00:00
+#SBATCH -p short
+#SBATCH --mail-type=FAIL
+#SBATCH --mail-user=ghoshs@montclair.edu
+# Submit with e.g.  sbatch --array 1-13 <scriptname> to run multiple instances
+
+echo -e "\n\n"
+date
+pwd
+echo -e "\n\n"
+
+
+echo $SLURM_ARRAY_TASK_ID
+RA=`awk "NR==$SLURM_ARRAY_TASK_ID" sky_positions.txt|awk '{print $1}'`
+DEC=`awk "NR==$SLURM_ARRAY_TASK_ID" sky_positions.txt|awk '{print $2}'`
+echo 'RA of injection: '$RA '. Dec of injection: '$DEC
+FILENAME='injectionFiles/injection_'$RA'_'$DEC'.hdf5'
+python create_datafile.py -c inj_config.ini --ra $RA --dec $DEC -o $FILENAME
+
+echo 'Injection File '$FILENAME' written'

@@ -1,0 +1,51 @@
+
+
+
+Sun Aug 15 15:44:53 EDT 2021
+/home/ghosh/projects/H0_study
+
+
+
+12
+RA of injection: 1.11 . Dec of injection: -0.55
+2021-08-15 15:44:57,592 Generating Fake Strain
+2021-08-15 15:44:57,592 Reading ASD from file
+2021-08-15 15:44:57,680 Making colored noise
+2021-08-15 15:45:17,936 Resampling data
+2021-08-15 15:45:17,938 Applying injections
+2021-08-15 15:45:18,114 Injecting at 1264069376.0, method is lal
+2021-08-15 15:45:18,151 Converting to float64
+2021-08-15 15:45:18,152 Remove Padding
+2021-08-15 15:45:18,153 Writing output strain to L-L1_STRAIN-1264069359-25-RA_1.11-DEC_-0.55.gwf
+2021-08-15 15:45:18,493 Done
+2021-08-15 15:45:19,959 Generating Fake Strain
+2021-08-15 15:45:19,959 Reading ASD from file
+2021-08-15 15:45:20,044 Making colored noise
+2021-08-15 15:45:40,341 Resampling data
+2021-08-15 15:45:40,342 Applying injections
+2021-08-15 15:45:40,520 Injecting at 1264069376.0, method is lal
+2021-08-15 15:45:40,555 Converting to float64
+2021-08-15 15:45:40,556 Remove Padding
+2021-08-15 15:45:40,557 Writing output strain to H-H1_STRAIN-1264069359-25-RA_1.11-DEC_-0.55.gwf
+2021-08-15 15:45:40,896 Done
+2021-08-15 15:45:42,370 Generating Fake Strain
+2021-08-15 15:45:42,370 Reading ASD from file
+2021-08-15 15:45:42,457 Making colored noise
+2021-08-15 15:46:02,637 Resampling data
+2021-08-15 15:46:02,639 Applying injections
+2021-08-15 15:46:02,816 Injecting at 1264069376.0, method is lal
+2021-08-15 15:46:02,851 Converting to float64
+2021-08-15 15:46:02,851 Remove Padding
+2021-08-15 15:46:02,853 Writing output strain to V-V1_STRAIN-1264069359-25-RA_1.11-DEC_-0.55.gwf
+2021-08-15 15:46:03,192 Done
+Overriding RA in the config file by value supplied in command line
+2.1 --> 1.11
+Overriding dec in the config file by value supplied in command line
+1.5 --> -0.55
+Duration of the signal = 7.74554443359375
+Frame start time = 1264069359
+Frame duration = 25
+Making frames for L1
+Making frames for H1
+Making frames for V1
+Injection File injectionFiles/injection_1.11_-0.55.hdf5 written

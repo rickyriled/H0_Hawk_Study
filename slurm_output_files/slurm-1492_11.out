@@ -1,0 +1,51 @@
+
+
+
+Sun Aug 15 15:44:53 EDT 2021
+/home/ghosh/projects/H0_study
+
+
+
+11
+RA of injection: 0.70 . Dec of injection: -0.99
+2021-08-15 15:44:57,601 Generating Fake Strain
+2021-08-15 15:44:57,601 Reading ASD from file
+2021-08-15 15:44:57,687 Making colored noise
+2021-08-15 15:45:18,440 Resampling data
+2021-08-15 15:45:18,441 Applying injections
+2021-08-15 15:45:18,622 Injecting at 1264069376.0, method is lal
+2021-08-15 15:45:18,656 Converting to float64
+2021-08-15 15:45:18,657 Remove Padding
+2021-08-15 15:45:18,659 Writing output strain to L-L1_STRAIN-1264069359-25-RA_0.7-DEC_-0.99.gwf
+2021-08-15 15:45:19,002 Done
+2021-08-15 15:45:20,573 Generating Fake Strain
+2021-08-15 15:45:20,573 Reading ASD from file
+2021-08-15 15:45:20,660 Making colored noise
+2021-08-15 15:45:40,847 Resampling data
+2021-08-15 15:45:40,849 Applying injections
+2021-08-15 15:45:41,029 Injecting at 1264069376.0, method is lal
+2021-08-15 15:45:41,064 Converting to float64
+2021-08-15 15:45:41,065 Remove Padding
+2021-08-15 15:45:41,067 Writing output strain to H-H1_STRAIN-1264069359-25-RA_0.7-DEC_-0.99.gwf
+2021-08-15 15:45:41,411 Done
+2021-08-15 15:45:43,024 Generating Fake Strain
+2021-08-15 15:45:43,024 Reading ASD from file
+2021-08-15 15:45:43,114 Making colored noise
+2021-08-15 15:46:03,272 Resampling data
+2021-08-15 15:46:03,274 Applying injections
+2021-08-15 15:46:03,451 Injecting at 1264069376.0, method is lal
+2021-08-15 15:46:03,486 Converting to float64
+2021-08-15 15:46:03,487 Remove Padding
+2021-08-15 15:46:03,489 Writing output strain to V-V1_STRAIN-1264069359-25-RA_0.7-DEC_-0.99.gwf
+2021-08-15 15:46:03,828 Done
+Overriding RA in the config file by value supplied in command line
+2.1 --> 0.7
+Overriding dec in the config file by value supplied in command line
+1.5 --> -0.99
+Duration of the signal = 7.74554443359375
+Frame start time = 1264069359
+Frame duration = 25
+Making frames for L1
+Making frames for H1
+Making frames for V1
+Injection File injectionFiles/injection_0.70_-0.99.hdf5 written

@@ -1,0 +1,51 @@
+
+
+
+Sun Aug 15 15:44:53 EDT 2021
+/home/ghosh/projects/H0_study
+
+
+
+1
+RA of injection: 0.000 . Dec of injection: 0.00
+2021-08-15 15:44:57,487 Generating Fake Strain
+2021-08-15 15:44:57,487 Reading ASD from file
+2021-08-15 15:44:57,572 Making colored noise
+2021-08-15 15:45:18,064 Resampling data
+2021-08-15 15:45:18,066 Applying injections
+2021-08-15 15:45:18,243 Injecting at 1264069376.0, method is lal
+2021-08-15 15:45:18,277 Converting to float64
+2021-08-15 15:45:18,278 Remove Padding
+2021-08-15 15:45:18,280 Writing output strain to L-L1_STRAIN-1264069359-25-RA_0.0-DEC_0.0.gwf
+2021-08-15 15:45:18,619 Done
+2021-08-15 15:45:20,127 Generating Fake Strain
+2021-08-15 15:45:20,127 Reading ASD from file
+2021-08-15 15:45:20,211 Making colored noise
+2021-08-15 15:45:40,090 Resampling data
+2021-08-15 15:45:40,092 Applying injections
+2021-08-15 15:45:40,269 Injecting at 1264069376.0, method is lal
+2021-08-15 15:45:40,303 Converting to float64
+2021-08-15 15:45:40,304 Remove Padding
+2021-08-15 15:45:40,305 Writing output strain to H-H1_STRAIN-1264069359-25-RA_0.0-DEC_0.0.gwf
+2021-08-15 15:45:40,645 Done
+2021-08-15 15:45:42,171 Generating Fake Strain
+2021-08-15 15:45:42,171 Reading ASD from file
+2021-08-15 15:45:42,259 Making colored noise
+2021-08-15 15:46:02,907 Resampling data
+2021-08-15 15:46:02,909 Applying injections
+2021-08-15 15:46:03,098 Injecting at 1264069376.0, method is lal
+2021-08-15 15:46:03,138 Converting to float64
+2021-08-15 15:46:03,139 Remove Padding
+2021-08-15 15:46:03,140 Writing output strain to V-V1_STRAIN-1264069359-25-RA_0.0-DEC_0.0.gwf
+2021-08-15 15:46:03,504 Done
+Overriding RA in the config file by value supplied in command line
+2.1 --> 0.0
+Overriding dec in the config file by value supplied in command line
+1.5 --> 0.0
+Duration of the signal = 7.74554443359375
+Frame start time = 1264069359
+Frame duration = 25
+Making frames for L1
+Making frames for H1
+Making frames for V1
+Injection File injectionFiles/injection_0.000_0.00.hdf5 written

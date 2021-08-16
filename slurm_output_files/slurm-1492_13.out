@@ -1,0 +1,14 @@
+
+
+
+Sun Aug 15 15:44:53 EDT 2021
+/home/ghosh/projects/H0_study
+
+
+
+13
+RA of injection:  . Dec of injection: 
+usage: create_datafile.py [-h] [-c CONFIGFILE] [--ra RA] [--dec DEC]
+                          [-o OUTPUTFILE]
+create_datafile.py: error: argument --ra: expected one argument
+Injection File injectionFiles/injection__.hdf5 written

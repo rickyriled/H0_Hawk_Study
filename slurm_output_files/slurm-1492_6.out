@@ -1,0 +1,51 @@
+
+
+
+Sun Aug 15 15:44:53 EDT 2021
+/home/ghosh/projects/H0_study
+
+
+
+6
+RA of injection: 4.11 . Dec of injection: -0.75
+2021-08-15 15:44:57,521 Generating Fake Strain
+2021-08-15 15:44:57,521 Reading ASD from file
+2021-08-15 15:44:57,606 Making colored noise
+2021-08-15 15:45:18,021 Resampling data
+2021-08-15 15:45:18,023 Applying injections
+2021-08-15 15:45:18,202 Injecting at 1264069376.0, method is lal
+2021-08-15 15:45:18,237 Converting to float64
+2021-08-15 15:45:18,238 Remove Padding
+2021-08-15 15:45:18,240 Writing output strain to L-L1_STRAIN-1264069359-25-RA_4.11-DEC_-0.75.gwf
+2021-08-15 15:45:18,584 Done
+2021-08-15 15:45:20,067 Generating Fake Strain
+2021-08-15 15:45:20,068 Reading ASD from file
+2021-08-15 15:45:20,153 Making colored noise
+2021-08-15 15:45:40,474 Resampling data
+2021-08-15 15:45:40,476 Applying injections
+2021-08-15 15:45:40,654 Injecting at 1264069376.0, method is lal
+2021-08-15 15:45:40,689 Converting to float64
+2021-08-15 15:45:40,690 Remove Padding
+2021-08-15 15:45:40,692 Writing output strain to H-H1_STRAIN-1264069359-25-RA_4.11-DEC_-0.75.gwf
+2021-08-15 15:45:41,032 Done
+2021-08-15 15:45:42,565 Generating Fake Strain
+2021-08-15 15:45:42,565 Reading ASD from file
+2021-08-15 15:45:42,653 Making colored noise
+2021-08-15 15:46:02,711 Resampling data
+2021-08-15 15:46:02,713 Applying injections
+2021-08-15 15:46:02,890 Injecting at 1264069376.0, method is lal
+2021-08-15 15:46:02,925 Converting to float64
+2021-08-15 15:46:02,926 Remove Padding
+2021-08-15 15:46:02,928 Writing output strain to V-V1_STRAIN-1264069359-25-RA_4.11-DEC_-0.75.gwf
+2021-08-15 15:46:03,268 Done
+Overriding RA in the config file by value supplied in command line
+2.1 --> 4.11
+Overriding dec in the config file by value supplied in command line
+1.5 --> -0.75
+Duration of the signal = 7.74554443359375
+Frame start time = 1264069359
+Frame duration = 25
+Making frames for L1
+Making frames for H1
+Making frames for V1
+Injection File injectionFiles/injection_4.11_-0.75.hdf5 written
